@@ -1,0 +1,58 @@
+{
+    "getMenuData":{
+        "code": "1",
+        "msg": "",
+        "data":[
+            {
+                "path": "/",
+                "name": "home",
+                "label":"首页",
+                "children":[],
+                "meta": {
+
+                    "icon": "el-icon-location",
+                    "loginCheck": true
+                }
+            },
+            {
+                "path": "/productManagement/ApplicationList",
+                "name": "ApplicationList",
+                "label":"应用列表",
+                "icon": "el-icon-document",
+                "children":[],
+                "meta": {
+                    "icon": "el-icon-document",
+                    "loginCheck": true
+                }
+            },
+            {
+                "path": "/basis",
+                "name": "basis",
+                "label":"基础组件",
+                "children": [{
+                    "path": "/basis/ApplicationList",
+                    "name": "ApplicationList",
+                    "label":"表格",
+                    "icon": "icon-tubiao-",
+                    "children":[],
+                    "meta": {
+                        "loginCheck": true
+                    }
+                },{
+                    "path": "/basis/form",
+                    "name": "formS",
+                    "label":"表单",
+                    "icon": "icon-tubiao-",
+                    "children":[],
+                    "meta": {
+                        "loginCheck": true
+                    }
+                }],
+                "meta": {
+                    "icon": "el-icon-setting",
+                    "loginCheck": true
+                }
+            }
+        ]
+    }
+}

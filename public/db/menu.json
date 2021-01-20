@@ -1,0 +1,108 @@
+{
+    "menus": [
+        {
+            "icon": "el-icon-s-home",
+            "name":"首页",
+            "index":"/home"
+        },
+        {
+            "icon": "el-icon-ali-jiankongzhongxin",
+            "name": "监控中心",
+            "index":"/monitor",
+            "list":[
+                {
+                    "name":"车辆概况",
+                    "router":{
+                        "path":"/monitor/vehicleSurvey"
+                    }
+                },
+                {
+                    "name":"车辆监控",
+                    "router":{
+                        "path":"/monitor/vehicleMonitor"
+                    }
+                },
+                {
+                    "name":"单车监控",
+                    "router":{
+                        "path":"/monitor/oneVehicleMonitor"
+                    }
+                }
+            ]
+        },
+        {
+            "icon": "el-icon-ali-xinxiguanli",
+            "name": "信息管理",
+            "index":"/information",
+            "list":[
+                {
+                    "name":"终端管理",
+                    "router":{
+                        "path":"/information/terminalAdmin"
+                    }
+                },
+                {
+                    "name":"SIM卡管理",
+                    "router":{
+                        "path":"/information/SIMCardAdmin"
+                    }
+                },
+                {
+                    "name":"车辆管理",
+                    "router":{
+                        "path":"/information/vehicleAdmin"
+                    }
+                },
+                {
+                    "name":"车型管理",
+                    "router":{
+                        "path":"/information/vehicleTypeAdmin"
+                    }
+                },
+                {
+                    "name":"发动机型管理",
+                    "router":{
+                        "path":"/information/engineTypeAdmin"
+                    }
+                },
+                {
+                    "name":"安全芯片管理",
+                    "router":{
+                        "path":"/information/securityChipAdmin"
+                    }
+                }
+            ]
+        },
+        {
+            "icon": "el-icon-ali-xitongguanli",
+            "name": "系统管理",
+            "index":"/system",
+            "list":[
+                {
+                    "name":"组织机构管理",
+                    "router":{
+                        "path":"/system/organizationAdmin"
+                    }
+                },
+                {
+                    "name":"角色管理",
+                    "router":{
+                        "path":"/system/roleAdmin"
+                    }
+                },
+                {
+                    "name":"用户管理",
+                    "router":{
+                        "path":"/system/userAdmin"
+                    }
+                },
+                {
+                    "name":"公司管理",
+                    "router":{
+                        "path":"/system/company"
+                    }
+                }
+            ]
+        }
+    ]
+}

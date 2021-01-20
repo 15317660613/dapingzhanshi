@@ -1,0 +1,16 @@
+/*全局样式设置*/
+.el-table td, .el-table th{
+    padding: 8px 0;
+}
+
+.el-table--scrollable-y .el-table__fixed-right{
+    right: 6px!important;
+}
+
+.pagination-container{
+    padding-bottom: 0!important;
+}
+
+.tableHeaderStyle{
+    color: #000;
+}

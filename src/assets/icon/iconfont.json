@@ -1,0 +1,128 @@
+{
+  "id": "1506500",
+  "name": "国六",
+  "font_family": "iconfont",
+  "css_prefix_text": "el-icon-ali-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4143505",
+      "name": "系统管理",
+      "font_class": "xitongguanli1",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "98510",
+      "name": "分析",
+      "font_class": "weibiaoti1",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "730868",
+      "name": "积分",
+      "font_class": "jifen",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "9735395",
+      "name": "行政",
+      "font_class": "hangzheng",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "11799099",
+      "name": "站点管理",
+      "font_class": "zhandianguanli",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "2777890",
+      "name": "工作时间",
+      "font_class": "gongzuoshijian",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "3564618",
+      "name": "入网",
+      "font_class": "ruwang",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "4511938",
+      "name": "里程",
+      "font_class": "licheng1",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "4564440",
+      "name": "时间",
+      "font_class": "shijian",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "2839074",
+      "name": "车辆",
+      "font_class": "cheliang",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "9966363",
+      "name": "里程",
+      "font_class": "licheng",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "10360215",
+      "name": "信息管理",
+      "font_class": "xinxiguanli",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "1299689",
+      "name": "报表管理",
+      "font_class": "baobiaoguanli",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "1725817",
+      "name": "监控中心",
+      "font_class": "jiankongzhongxin",
+      "unicode": "e7ce",
+      "unicode_decimal": 59342
+    },
+    {
+      "icon_id": "4881016",
+      "name": "报警管理",
+      "font_class": "baojingguanli",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "7609088",
+      "name": "系统管理",
+      "font_class": "xitongguanli",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "10832236",
+      "name": "基础信息",
+      "font_class": "jichuxinxi",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    }
+  ]
+}

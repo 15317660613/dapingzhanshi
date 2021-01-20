@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "mock": "json-server db.json --port 3006"
+    },
+    "dependencies": {
+        "mock": "^0.1.1"
+    }
+}

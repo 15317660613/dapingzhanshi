@@ -1,0 +1,49 @@
+/**
+ * 时间:2019/10/15
+ * 作者:yuanbotao
+ * 功能:滚动条样式
+ */
+.red-skin{
+    /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+    ::-webkit-scrollbar
+    {
+        width: 6px;
+        height: 6px;
+        background-color: #F00;
+    }
+    /*定义滚动条轨道 内阴影+圆角*/
+    ::-webkit-scrollbar-track
+    {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 4px;
+        background-color: #F00;
+    }
+    /*定义滑块 内阴影+圆角*/
+    ::-webkit-scrollbar-thumb
+    {
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: rgba(85,85,85,0.2);
+    }
+    /** IE浏览器设置样式 **/
+    /*三角箭头的颜色*/
+    scrollbar-arrow-color: #0276c7;
+    /*滚动条滑块按钮的颜色*/
+    scrollbar-face-color: #1285f1;
+    /*滑块边框颜色*/
+    scrollbar-Shadow-color:#1285f1;
+    /*滚动条轨道颜色*/
+    scrollbar-track-color: #0e5699;
+
+
+
+    //scrollbar-arrow-color: #f4ae21; /**//*三角箭头的颜色*/
+    //scrollbar-face-color: #333; /**//*立体滚动条的颜色*/
+    //scrollbar-3dlight-color: #666; /**//*立体滚动条亮边的颜色*/
+    //scrollbar-highlight-color: #666; /**//*滚动条空白部分的颜色*/
+    //scrollbar-shadow-color: #999; /**//*立体滚动条阴影的颜色*/
+    //scrollbar-darkshadow-color: #666; /**//*立体滚动条强阴影的颜色*/
+    //scrollbar-track-color: #666; /**//*立体滚动条背景颜色*/
+    //scrollbar-base-color:#f8f8f8; /**//*滚动条的基本颜色*/
+}
+
